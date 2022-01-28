@@ -89,7 +89,7 @@ public class FizzBuzzStepDef {
 
     @And("other flag is set")
     public void otherFlagIsSet() {
-        other = true;
+        other = false;
     }
 
     @And("validate background flag")
